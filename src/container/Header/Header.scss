@@ -177,9 +177,23 @@
     position: relative;
 
     img {
-        width: 100%;
+        width: 70%;
+        margin-right: 5rem;
         object-fit: contain;
         z-index: 1;
+
+        @media screen and (min-width: 2000px) {
+            width: 100%;
+            margin-bottom: -8rem;
+        }
+
+        @media screen and (max-width: 1200px) {
+            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 80%, transparent 100%);
+        }
+
+        @media screen and (max-width: 450px) {
+            margin-right: 3rem;
+        }
     }
 
     .overlay-circle {
