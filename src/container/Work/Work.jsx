@@ -108,4 +108,8 @@ const Work = () => {
     );
 };
 
-export default AppWrap(Work, 'work');
+export default AppWrap(
+    MotionWrap(Work, 'app__work'), 
+    'work',
+    'app__primarybg'
+);
