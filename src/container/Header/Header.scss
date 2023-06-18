@@ -2,8 +2,10 @@
     position: relative;
     background: url('../../assets/bgIMG.png');
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: repeat;
-    background-position: center;
+    background-color: rgb(69, 53, 78);
+    background-blend-mode: luminosity;
 
     .app__wrapper {
         padding: 0;
@@ -42,7 +44,7 @@
     justify-content: flex-start;
     align-items: flex-start;
 
-    margin: 0 2rem;
+    margin: 0 5rem;
     height: 100%;
 
     @media screen and (max-width: 1200px) {
@@ -177,8 +179,8 @@
     position: relative;
 
     img {
-        width: 70%;
-        margin-right: 5rem;
+        width: 100%;
+
         object-fit: contain;
         z-index: 1;
 
@@ -188,12 +190,17 @@
         }
 
         @media screen and (max-width: 1200px) {
-            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 80%, transparent 100%);
+            mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
         }
 
         @media screen and (max-width: 450px) {
             margin-right: 3rem;
         }
+    }
+
+    .profile-bg {
+        margin-right: -1.5rem;
+        filter: brightness(1.15) contrast(1.1);
     }
 
     .overlay-circle {
