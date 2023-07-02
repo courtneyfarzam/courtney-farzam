@@ -36,7 +36,7 @@ const Footer = () => {
 
     return (
         <>
-            <h2 className='head-text'>Take a coffee & chat with me</h2>
+            <h2 className='head-text'>Let's Make Something <span>Together</span></h2>
 
             <div className='app__footer-cards'>
                 <div className='app__footer-card'>
@@ -94,6 +94,12 @@ const Footer = () => {
                     <h3 className='head-text'>Thank you for getting in touch!</h3>
                 </div>
             )}
+
+            <div className='copyright'>
+                <p className='p-text'>Made with 💖 and Javascript</p>
+                <p className='p-text'>@2023 COURTNEY</p>
+                <p className='p-text'>All rights reserved.</p>
+            </div>
         </>
     );
 }

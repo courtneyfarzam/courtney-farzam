@@ -10,7 +10,7 @@ const About = () => {
     const [abouts, setAbouts] = useState([]);
 
     useEffect(() => {
-        const query = '*[_type == "about"]';
+        const query = '*[_type == "about"] | order(_updatedAt asc)';
 
         client.fetch(query).then((data) => {
             setAbouts(data)
@@ -22,7 +22,7 @@ const About = () => {
     return (
         <>
             <h2 className='head-text'>
-                I Know That <span>Good Dev</span><br />Means <span>Good Business</span>
+                The <span>Web</span> Is Our <span>Playground</span>
             </h2>
 
             <div className='app__profiles'>

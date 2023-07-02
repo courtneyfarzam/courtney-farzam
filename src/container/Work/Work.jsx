@@ -13,7 +13,7 @@ const Work = () => {
     const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1});
 
     useEffect(() => {
-        const query = '*[_type == "work"]';
+        const query = '*[_type == "work"] | order(_updatedAt asc)';
     
         client.fetch(query).then((data) => {
             setWork(data);
@@ -40,10 +40,10 @@ const Work = () => {
 
     return (
         <>
-            <h2 className='head-text'>My Creative <span>Portfolio</span></h2>
+            <h2 className='head-text'>My Developer <span>Portfolio</span></h2>
 
             <div className='app__work-filter'>
-                {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+                {['Full Stack', 'Front End', 'React', 'All'].map((item, index) => (
                     <div
                         key={index}
                         onClick={() => handleWorkFilter(item)}
