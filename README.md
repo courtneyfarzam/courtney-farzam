@@ -130,7 +130,7 @@ The Port Resort: [https://github.com/courtneyfarzam/courtney-farzam](https://git
 [license-shield]: https://img.shields.io/github/license/courtneyfarzam/The-Port-Resort.svg?style=for-the-badge
 [license-url]: https://github.com/courtneyfarzam/The-Port-Resort/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/courtneyashleyfarzam
+[linkedin-url]: https://linkedin.com/in/courtneyfarzam
 [product-screenshot]: images/screenshot.png
 [node.js]: https://img.shields.io/badge/node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white
 [node-url]: https://nodejs.org/en/
