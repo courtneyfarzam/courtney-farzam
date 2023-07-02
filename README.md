@@ -20,7 +20,7 @@
     <a href="https://github.com/courtneyfarzam/courtney-farzam"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://mighty-plateau-36759.herokuapp.com/" target="_blank" >Live Website</a>
+    <a href="https://courtneyfarzam.netlify.app/" target="_blank" >Live Website</a>
         ·
     <a href="https://github.com/courtneyfarzam/courtney-farzam/issues">Report Bug</a>
     ·
@@ -31,20 +31,15 @@
 ## Screenshots
 
 ![Homepage](./public/images/TPR-profile.png "Mockup")
-<br>
-<br>
-![Portfolio](./public/images/TPR-port.png "Mockup")
+
 
 <!-- ABOUT THE PROJECT -->
 
 ## Built With
 
-- [![Node][node.js]][node-url]
-- [![Express][express]][express-url]
-- [![Sequelize][sequelize]][sequelize-url]
-- [![MYSQL][mysql]][mysql-url]
-- [![Handlebars][handlebars]][handlebars-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
+- [![React][react.js]][react-url]
+- [![Sanity][sanity]][sanity-url]
+- [![SCSS][scss]][scss-url]
 
 <!-- GETTING STARTED -->
 
@@ -161,3 +156,7 @@ The Port Resort: [https://github.com/courtneyfarzam/courtney-farzam](https://git
 [mysql-url]: https://www.mysql.com/
 [handlebars]: https://img.shields.io/badge/Handlebars-ffffff?style=for-the-badge&logo=html&logoColor=black
 [handlebars-url]: https://handlebarsjs.com/
+[sanity]: https://img.shields.io/badge/sanity-ffffff?style=for-the-badge&logo=html&logoColor=black
+[sanity-url]: https://www.sanity.io/
+[scss]: https://img.shields.io/badge/Sass-C76494?style=for-the-badge&logo=sass&logoColor=white
+[scss-url]: https://sass-lang.com/
