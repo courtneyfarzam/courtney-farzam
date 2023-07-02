@@ -30,7 +30,7 @@
 
 ## Screenshots
 
-![Homepage](./public/images/TPR-profile.png "Mockup")
+![Homepage](https://github.com/courtneyfarzam/courtney-farzam/blob/main/src/assets/Courtney-Farzam.png "Mockup")
 
 
 <!-- ABOUT THE PROJECT -->
