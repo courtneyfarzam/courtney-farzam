@@ -50,38 +50,6 @@
   npm install npm@latest -g
   ```
 
-## Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/courtneyfarzam/courtney-farzam.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm i
-   ```
-3. Access MYSQL to create the database
-   ```sh
-   mysql -u <username> -p
-   ```
-   ```sh
-   SOURCE db/schema.sql
-   ```
-<!-- 4. Access prepopulate data from seeds.<br>
- <i><b>Note:</b> the seed data is for visual reference only. You will not be able to sign in with this data due to the use of bcrypt.</i>
-   ```sh
-   npm run seed
-   ``` -->
-4. Start the server manually or use Nodemon for instant server reload
-   ```sh
-   npm start
-   ```    
-   <b>OR</b>    
-   ```sh
-   nodemon courtney-farzam
-   ``` 
-
-
 <!-- CONTRIBUTING -->
 
 ## Contributing
@@ -108,11 +76,6 @@ Distributed under the MIT License.
 ## Creators
 
 Courtney Ashley Farzam - courtneyfarzam@outlook.com    
-Elham Hamzapour - ehamzapour@gmail.com    
-Bryce Bann - punkrice@gmail.com    
-Jose Blay - joseblay10@gmail.com    
-
-The Port Resort: [https://github.com/courtneyfarzam/courtney-farzam](https://github.com/courtneyfarzam/courtney-farzam)
 
 <!-- ACKNOWLEDGMENTS -->
 
